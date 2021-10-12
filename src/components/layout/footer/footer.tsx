@@ -16,7 +16,7 @@ export const Footer: FunctionComponent<Footer> = ({
       <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center md:order-2">
           {github && (
-            <a href={github} className="ml-6 text-gray-400 hover:text-gray-500">
+            <a href={github} className="ml-6 text-cool-gray-50 hover:text-cool-gray-100">
               <span className="sr-only">GitHub</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -30,7 +30,7 @@ export const Footer: FunctionComponent<Footer> = ({
           {linkedin && (
             <a
               href={linkedin}
-              className="ml-6 text-gray-400 hover:text-gray-500"
+              className="ml-6 text-cool-gray-50 hover:text-cool-gray-100"
             >
               <span className="sr-only">LinkedIn</span>
               <svg
@@ -44,7 +44,7 @@ export const Footer: FunctionComponent<Footer> = ({
           )}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base leading-6 text-gray-400">
+          <p className="text-center text-base leading-6 text-cool-gray-50">
             © {new Date().getFullYear()} {copyrightOwner}. All rights reserved.
           </p>
         </div>
