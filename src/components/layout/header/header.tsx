@@ -31,18 +31,18 @@ export const FlyoutMenu: FunctionComponent<MenuItemWithDropdown> = ({
   const [isOpen, setIsOpen] = useState(false);
   const toggleIsOpen = () => setIsOpen(!isOpen);
 
-  /* Item active: "text-gray-900", Item inactive: "text-gray-500" */
+  /* Item active: "text-gray-900", Item inactive: "text-cool-gray-100" */
   return (
     <div className="relative bg-blue-600">
       <button
         onClick={toggleIsOpen}
         type="button"
-        className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
+        className="text-cool-gray-100 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
       >
         <span>{label}</span>
-        {/* Item active: "text-gray-600", Item inactive: "text-gray-400" */}
+        {/* Item active: "text-gray-600", Item inactive: "text-cool-gray-50" */}
         <svg
-          className="text-gray-400 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+          className="text-cool-gray-50 h-5 w-5 group-hover:text-cool-gray-100 group-focus:text-cool-gray-100 transition ease-in-out duration-150"
           viewBox="0 0 20 20"
           fill="currentColor"
         >
@@ -73,7 +73,7 @@ export const FlyoutMenu: FunctionComponent<MenuItemWithDropdown> = ({
                       <p className="text-base leading-6 font-medium text-gray-900">
                         {text}
                       </p>
-                      <p className="text-sm leading-5 text-gray-500">
+                      <p className="text-sm leading-5 text-cool-gray-100">
                         {description}
                       </p>
                     </div>
@@ -106,7 +106,7 @@ export const MobileFlyoutMenu: FunctionComponent<MenuItemWithDropdown> = ({
         <div>{label}</div>
         <div>
           <svg
-            className="text-gray-400 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+            className="text-cool-gray-50 h-5 w-5 group-hover:text-cool-gray-100 group-focus:text-cool-gray-100 transition ease-in-out duration-150"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -148,7 +148,7 @@ export const Header: FunctionComponent<Header> = ({ menuItems, logo }) => {
   return (
     <div className="relative bg-blue-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+        <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
           <div className="lg:w-0 lg:flex-1">
             <a href="/" className="flex">
               {logo}
@@ -158,7 +158,7 @@ export const Header: FunctionComponent<Header> = ({ menuItems, logo }) => {
             <button
               onClick={toggleMobileDrawer}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+              className="inline-flex items-center justify-center p-2 rounded-md text-cool-gray-50 hover:text-cool-gray-100 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-cool-gray-100 transition duration-150 ease-in-out"
             >
               <svg
                 className="h-6 w-6"
@@ -183,7 +183,7 @@ export const Header: FunctionComponent<Header> = ({ menuItems, logo }) => {
                 <a
                   key={index}
                   href={menuItem.href}
-                  className="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
+                  className="text-base leading-6 font-medium text-cool-gray-100 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                 >
                   {menuItem.label}
                 </a>
@@ -205,7 +205,7 @@ export const Header: FunctionComponent<Header> = ({ menuItems, logo }) => {
                     <button
                       onClick={toggleMobileDrawer}
                       type="button"
-                      className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                      className="inline-flex items-center justify-center p-2 rounded-md text-cool-gray-50 hover:text-cool-gray-100 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-cool-gray-100 transition duration-150 ease-in-out"
                     >
                       <svg
                         className="h-6 w-6"
