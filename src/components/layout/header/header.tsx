@@ -33,7 +33,7 @@ export const FlyoutMenu: FunctionComponent<MenuItemWithDropdown> = ({
 
   /* Item active: "text-gray-900", Item inactive: "text-cool-gray-100" */
   return (
-    <div className="relative bg-blue-600">
+    <div className="relative bg-green-400">
       <button
         onClick={toggleIsOpen}
         type="button"
