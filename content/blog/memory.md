@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Arboreal Memory
-publishedDate: 
+publishedDate: 01-20-2022
 description: A tree-themed memory game 
 featured: false
 img: ../../static/images/memory.png

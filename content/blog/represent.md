@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Represent!
-publishedDate: 
+publishedDate: 01-20-2022
 description: A website that allows users to view all of the representatives for their district
 featured: false
 img: ../../static/images/Represent.png
