@@ -1,8 +1,8 @@
-const siteName = "Sample Blog";
-const siteShortName = "Sample Blog";
-const siteUrl = "https://geek.sg/";
-const siteDescription = "Sample blog template";
-const siteKeyword = "";
+const siteName = "J. Austin Tsiaperas' Portfolio";
+const siteShortName = "Portfolio";
+const siteUrl = "https://master--jovial-booth-46747f.netlify.app/";
+const siteDescription = "J. Austin Tsiaperas' Portfolio";
+const siteKeyword = "Portfolio";
 const siteLogo = "logo.png";
 const siteLogoFolder = `static/${siteLogo}`;
 
