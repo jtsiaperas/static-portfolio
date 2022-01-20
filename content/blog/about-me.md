@@ -3,7 +3,7 @@ template: blog-post
 title: About Me
 publishedDate: 2021-10-26
 description: Avid follower of Agile principles, innovating through experimentation and iteration. Quick study with a knack for written language and mathematics, particularly linear algebra and numerical analysis. Passionate about solving complex problems with a SOLID and RESTful approach. Excellent at managing projects and leading teams through collaboration and inclusion. Lifelong learner who thrives when continually challenged.
-featured: true
+featured: false
 img: ../../static/images/handcrafted-with-love.jpeg
 imgAlt: React source code
 tags:
@@ -42,7 +42,7 @@ tags:
 * Trained team members in advanced use of printing equipment and software 
 * Monitored KPI and improved performance by coaching team members and managing customer expectations 
 
-## EDUCATION 
+### EDUCATION 
 
 | Northwestern University Coding Bootcamp | Full-Stack Developer Certificate | 11/2017-05/2018 |
 | --------------------------------------- | -------------------------------- | ------------ | 

@@ -3,7 +3,7 @@ template: blog-post
 title: Represent!
 publishedDate: 
 description: A website that allows users to view all of the representatives for their district
-featured: true
+featured: false
 img: ../../static/images/Represent.png
 imgAlt: Represent over a stylized American Flag
 tags:
