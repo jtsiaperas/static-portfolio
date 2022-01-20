@@ -12,7 +12,7 @@ tags:
   - qualifications
 ---
 ## J. Austin Tsiaperas
-<img src="../../static/images/headshot.jpeg" alt="an image of J.Austin Tsiaperas' head and upper chest" style="height:180px; width:180px; border-radius:50;"></img>
+<img src="../../static/images/headshot.png" alt="an image of J.Austin Tsiaperas' head and upper chest"></img>
 ### WORK EXPERIENCE
 
 | Next Health Choice   |   Project Specialist     |   07/2019-09/2020 |
