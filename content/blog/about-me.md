@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: About Me
-publishedDate: 2021-10-26
+publishedDate: 
 description: Avid follower of Agile principles, innovating through experimentation and iteration. Quick study with a knack for written language and mathematics, particularly linear algebra and numerical analysis. Passionate about solving complex problems with a SOLID and RESTful approach. Excellent at managing projects and leading teams through collaboration and inclusion. Lifelong learner who thrives when continually challenged.
 featured: false
 img: ../../static/images/handcrafted-with-love.jpeg
