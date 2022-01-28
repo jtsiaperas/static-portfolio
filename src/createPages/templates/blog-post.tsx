@@ -10,7 +10,7 @@ interface QueryData {
       title: string;
       tags: string[];
       img: {
-        childImageSharp: { fluid: FluidObject };
+        childImageSharp: { fluid(max-width:2048, max-height:256, quality:90) };
       };
       imgAlt: string;
       publishedDate: string;
