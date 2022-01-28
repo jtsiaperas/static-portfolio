@@ -85,11 +85,8 @@ export const Page: FunctionComponent<Page> = ({ data }) => {
         imgAlt,
         description,
         img: {
-          childImageSharp: { fluid(maxWidth: 2048, maxHeight: 256, quality: 90) {
-                  ...GatsbyImageSharpFluid_withWebp
-                } 
-          },
-        },
+          childImageSharp: { fluid(maxWidth: 2048, maxHeight: 256, quality: 90): FluidObject}
+         },
         publishedDate,
       },
     },
