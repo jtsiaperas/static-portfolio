@@ -85,8 +85,8 @@ export const Page: FunctionComponent<Page> = ({ data }) => {
         imgAlt,
         description,
         img: {
-          childImageSharp: { fluid: FluidObject};
-         },
+          childImageSharp: { fluid: img },
+        },
         publishedDate,
       },
     },
