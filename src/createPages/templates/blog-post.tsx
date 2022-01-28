@@ -10,7 +10,7 @@ interface QueryData {
       title: string;
       tags: string[];
       img: {
-        childImageSharp: { fluid(max-width:2048, max-height:256, quality:90) };
+        childImageSharp: { fluid: FluidObject };
       };
       imgAlt: string;
       publishedDate: string;
@@ -85,7 +85,10 @@ export const Page: FunctionComponent<Page> = ({ data }) => {
         imgAlt,
         description,
         img: {
-          childImageSharp: { fluid: img },
+          childImageSharp: { fluid(maxWidth: 2048, maxHeight: 256, quality: 90) {
+                  ...GatsbyImageSharpFluid_withWebp
+                } 
+          },
         },
         publishedDate,
       },
