@@ -2,7 +2,7 @@
 template: blog-post
 title: About Me
 publishedDate: 01-20-2022
-description: Avid follower of Agile principles, innovating through experimentation and iteration. Quick study with a knack for written language and mathematics, particularly linear algebra and numerical analysis. Passionate about solving complex problems with a SOLID and RESTful approach. Excellent at managing projects and leading teams through collaboration and inclusion. Lifelong learner who thrives when continually challenged.
+description: My idea of fun involves drawing on a game board with crayon and creating an imaginary railway empire in a tolkeinesque fantasy world. I legitimately enjoy arithmetic. I think solving that one problem with my code that kept it from working is a rush that no roller coaster can compete with. I would rather spend 8 hours a day staring at a black screen with white text than spend 15 minutes on the phone. I will convince you to play my train game, and you will have a good time. That's who I am.
 featured: True
 img: ../../static/images/handcrafted-with-love.jpeg
 imgAlt: React source code
