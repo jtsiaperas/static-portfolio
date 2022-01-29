@@ -5,7 +5,7 @@ publishedDate: 01-20-2022
 description: A BASH terminal themed hangman game 
 featured: false
 img: ../../static/images/hangman.png
-imgAlt: A title splash with the words Arboreal Memory and a grid of images depicting portions of trees
+imgAlt: A terminal inspired screen depicting an ascii art version of hangman
 tags:
   - HTML
   - CSS

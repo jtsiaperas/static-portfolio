@@ -16,8 +16,7 @@ tags:
 
 ### cdewrd
 
-Codeword, stylized cdewrd or c\_de w\_rd was inspired by my love of word games and the recent wordle craze. Given my experience working
-with the romance languages, I thought it would be fun to try solving puzzles using latin words. This is currently a work in progres.
+Codeword, stylized cdewrd or c\_de w\_rd was inspired by my love of word games and the recent wordle craze. Given my experience working with the romance languages, I thought it would be fun to try solving puzzles using latin words. This is currently a work in progress.
 
 I started by sourcing a list of latin words. Finding a list was not difficult, however finding a list that I could easily work with proved harder than I expected. I ultimately happened upon an archived university project and downloaded the RAW file used as the data for a command line based interactive latin dictionary. The following image is an example of the data formatting.
 
