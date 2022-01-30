@@ -26,4 +26,6 @@ Clearly I had to do some work on the file to get lists of just words. I created 
 
 <img src="../../static/images/latin_lists.png" alt="multiple lists of latin words separated by lengths of 5, 6, 7, or 8 letters"> </img>
 
-I will update this space as I continue to make progress.
+I had a couple of ideas about how exactly to remove the duplicates. My first thought was to use filter and check each word against a new list for duplicates. That ends up being O(n^2), which is pretty inefficient. I then thought of sorting the lists first, and remembered that the lists are already in alphabetical order. It occurred to me that all I really had to check is that the previous word isn't the same as the current word when adding to the new list. This ended up being more efficient since there are only a couple operations per word rather than a few thousand.
+
+Now I need to work on the database schema. I want to use separate tables for each list, named for the length, and a foreign key relationship between these tables and the user. Each user would have their own list of completed words and a list of every word guessed for each word. 
